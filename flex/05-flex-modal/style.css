@@ -27,7 +27,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  min-width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -66,4 +66,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.icon {
+  flex: 1, 0, auto;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 15px;
 }
